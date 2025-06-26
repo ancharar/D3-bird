@@ -1,0 +1,18 @@
+.form-groups-container {
+  display: flex;         
+  flex-wrap: wrap;      
+  gap: 15px;             
+  align-items: flex-start; 
+}
+
+.form-groups-container > div {
+  flex: 1;               
+  min-width: 200px;      
+  max-width: 300px;      
+  padding: 10px;
+}
+
+#setting input[type="button"] {
+  margin-top: 2px;
+  padding: 2px 2px;
+}
